@@ -1,12 +1,14 @@
 # From Terminal / Powershell
-virtualenv  <env_name>
-virtualenv --python=python2.7 <env_name>
+c:\> py3 -m venv <env_name>
 
 # Activate Virtual Environment
-c:> c:\dev\venvs\<env_name>\Scripts\activate.bat
+c:\> c:\dev\venvs\<env_name>\Scripts\activate.bat
 
 # Prompt
 (env_name) 
 
 # Deactivate
 (env_name) deactivate
+
+# Exit
+(env_name) exit
